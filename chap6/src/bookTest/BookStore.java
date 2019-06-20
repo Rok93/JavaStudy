@@ -1,5 +1,14 @@
 package bookTest;
 
+/**
+ * - Book 클래스 실습 
+ * BookStore 클래스 -->수정 불필요
+ * Book 클래스 -->작성
+ * BookMgr 클래스 -->작성
+ * 각 제약 조건은 각 클래스에 주석처리 하였음
+ * @author Rok93
+ * @version 1.0.0  2019-06-20  Day 15
+ */
 public class BookStore {
 
 	public static void main(String[] args) {
