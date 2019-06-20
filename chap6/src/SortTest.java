@@ -1,4 +1,4 @@
-
+ 
 class Sorting{
 	
 	int[] ar = new int[5];
