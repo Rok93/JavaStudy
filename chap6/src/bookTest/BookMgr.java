@@ -19,17 +19,26 @@ public class BookMgr {
 	}
 
 		public void printBookList() {
-			for(int i = 0; i < booklist.length; i++)
-				System.out.println(booklist[i].getTitle());
+//			for(int i = 0; i < booklist.length; i++)
+//				System.out.println(booklist[i].getTitle());
+//			아래의 식으로 간단히 할 수 있다! 
+			
+			for(Book b : booklist)
+				System.out.println(b.getTitle());
 		}
+		
 
 		public void printTotalPrice() {
-			int sum = 0;
+			int total = 0;
 
-			for(int i = 0; i < booklist.length; i++)
-				sum += booklist[i].getPrice();
+//			for(int i = 0; i < booklist.length; i++)
+//				total += booklist[i].getPrice();
+//			아래의 향상된 for 문으로 변경 가능할 것 같다! 
 			
-			System.out.println(sum);
+			for(Book b : booklist)
+				total += b.getPrice();
+			
+			System.out.println(total);
 		}
 
 
