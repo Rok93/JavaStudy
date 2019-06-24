@@ -17,8 +17,8 @@ public class Engineer extends Employee {
 	int techPay;
 
 	Engineer(int id, String name, int salary,int extraPay, int rightPay, int techPay){
+		
 		super(id, name, salary, extraPay);
-
 		this.rightPay = rightPay;
 		this.techPay = techPay;
 

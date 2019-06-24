@@ -78,8 +78,8 @@ public class CastingTest {
 			System.out.println(array[i] instanceof B);
 //			System.out.println(i + " : " + ((B)(array[i])).j);
 		}
-		else if(array[i] instanceof C)
-			C c1 = (C)array[i];
+//		else if(array[i] instanceof C)
+//			C c1 = (C)array[i];
 		// i = 0 : 예외발생 중단 
 	}
 }

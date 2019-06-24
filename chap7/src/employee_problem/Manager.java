@@ -18,19 +18,21 @@ package employee_problem;
 public class Manager extends Employee {
 	
 	int managerPay;
-	
-	Manager(int id, String name, int salary,int extraPay,int managerPay){
+
+	// source 탭에서 generate constructor using field 
+		public Manager(int id, String name, int salary, int extraPay, int managerPay) {
 		super(id, name, salary, extraPay);
 		
 		this.managerPay = managerPay;
 	}
-	
+
+// source 탭에서 
 		@Override
 		public int totalSalry() {
 			
 			int sum = 0;
 			
-			sum += salary;
+			sum += salary;           //super.totalSalry; 써서 이어서 추가해도 된다.
 			sum += extraPay;
 			sum += managerPay;
 			
